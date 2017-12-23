@@ -1,0 +1,22 @@
+
+ANGULAR CLI COMMANDS
+- Create a new project by typing ng new <project-name> in the command line
+- We'll be working in the src folder
+
+- Use ng-server in command line to start server
+
+
+TYPESCRIPT
+ - we cannot change the data type of a variable
+ - we can declare the type of a variable in typescript EX:  myVar:string = "hello"
+ - we can use classes 
+ 
+    class Car {
+        wheels:number = 4
+
+        drive {
+            console.log('the car is driving)
+        }
+    }
+
+    myCar: Car = new Car();
