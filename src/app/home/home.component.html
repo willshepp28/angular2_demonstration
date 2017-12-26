@@ -18,4 +18,15 @@
 
 
 <!-- event binding -->
-<button (click)="alertMe('i love life')">Click me</button>
+<button (click)="alertMe('i love life')">Click me</button> <br><br>
+
+
+<!-- two way data binding -->
+<!-- <input [(ngModel)]="ninja.name" /> -->
+<label for="name">Name: </label>
+<input [(ngModel)]="person.name" />
+<label for="gender">Gender: </label>
+<input [(ngModel)]="person.gender">
+
+<p>{{person.name}}</p>
+<p>{{person.gender}}</p>

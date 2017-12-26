@@ -12,9 +12,17 @@ export class HomeComponent implements OnInit {
   thyString = "Strings are things";
   boolUlose = true;
 
+  // event binding
   alertMe(val){
     alert(val);
   }
+
+  // two way data binding
+person = {
+  name: "Will",
+  gender: "male",
+  age: 28
+};
 
   constructor() { }
 
