@@ -9,6 +9,12 @@ export class HomeComponent implements OnInit {
 
   // where we can define data
   homeTitle = "welcome to the homepage....";
+  thyString = "Strings are things";
+  boolUlose = true;
+
+  alertMe(val){
+    alert(val);
+  }
 
   constructor() { }
 

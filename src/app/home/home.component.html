@@ -4,9 +4,18 @@
 
 <h1>{{ homeTitle }}</h1>
 
+<!--  property binding -->
+<input [value]="thyString" />
 
-<p>I am the truth</p>
+<input [required]="boolUlose" />
 
-<div>
-  {{ homeTitle }}
-</div>
+
+<!--  property binding with string interpolation -->
+
+<input value="{{thyString}}" />
+
+<input required="{{boolUlose}}" />
+
+
+<!-- event binding -->
+<button (click)="alertMe('i love life')">Click me</button>
