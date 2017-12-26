@@ -12,4 +12,14 @@ export class AppComponent {
   people = 'yes';
   name = "Will";
   age = 28;
+
+  newperson =  {
+    name: "Sarah",
+    gender: "female",
+    age: 40
+  }
+
+  yell(e) {
+    alert("I am yelling")
+  }
 }

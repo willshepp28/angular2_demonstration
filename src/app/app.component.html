@@ -13,5 +13,5 @@
 
 <!-- Main Section -->
 <section id="main">
-    <app-home></app-home>   <!-- this is a directive  -->
+    <app-home [newperson]="newperson" (onYell)="yell($event)"></app-home>   <!-- this is a directive  -->
 </section>
